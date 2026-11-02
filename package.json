@@ -1,0 +1,25 @@
+{
+  "name": "dtx-studio-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "encoding-japanese": "^2.4.0",
+    "fflate": "^0.8.2"
+  },
+  "devDependencies": {
+    "@types/encoding-japanese": "^2.2.1",
+    "@types/node": "^22.15.30",
+    "happy-dom": "^21.0.4",
+    "prettier": "^3.9.10",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
